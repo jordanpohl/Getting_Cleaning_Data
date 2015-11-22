@@ -86,3 +86,5 @@ The data.table named `tidy2` consists of the following columns.
 | FFT.BodyBodyGyroMag.Std      | fbodybodygyromagstd         |
 | FFT.BodyBodyGyroJerkMag.Mean | fbodybodygyrojerkmagmean    |
 | FFT.BodyBodyGyroJerkMag.Std  | fbodybodygyrojerkmagstd     |
+
+
