@@ -1,0 +1,88 @@
+## Code Book
+
+The data linked from the course website represents data collected from the accelerometers from the Samsung Galaxy S smartphone.
+
+The following variables are from run_analysis.R. Please see the ReadMe file for more background on this project.
+
+# Clean_colnames
+
+| column       | description                                              | type    |
+| ------------ | -------------------------------------------------------- | ------- |
+| Subject      | Identifier of the subject                                | integer |
+| Activity     | Label of the activity                                    | factor  |
+| MeanSamples  | Mean of variables by Subject + Activity provided in tidy | numeric |
+
+# Tidy2
+
+The data.table named `tidy2` consists of the following columns.
+
+| Column                       | Original Name               |
+| ---------------------------- | --------------------------- |
+| Activity                     |                             |
+| Subject                      |                             |
+| Time.BodyAcc.Mean.X          | tbodyaccmeanx               |
+| Time.BodyAcc.Mean.Y          | tbodyaccmeany               |
+| Time.BodyAcc.Mean.Z          | tbodyaccmeanz               |
+| Time.BodyAcc.Std.X           | tbodyaccstdx                |
+| Time.BodyAcc.Std.Y           | tbodyaccstdy                |
+| Time.BodyAcc.Std.Z           | tbodyaccstdz                |
+| Time.GravityAcc.Mean.X       | tgravityaccmeanx            |
+| Time.GravityAcc.Mean.Y       | tgravityaccmeany            |
+| Time.GravityAcc.Mean.Z       | tgravityaccmeanz            |
+| Time.GravityAcc.Std.X        | tgravityaccstdx             |
+| Time.GravityAcc.Std.Y        | tgravityaccstdy             |
+| Time.GravityAcc.Std.Z        | tgravityaccstdz             |
+| Time.BodyAccJerk.Mean.X      | tbodyaccjerkmeanx           |
+| Time.BodyAccJerk.Mean.Y      | tbodyaccjerkmeany           |
+| Time.BodyAccJerk.Mean.Z      | tbodyaccjerkmeanz           |
+| Time.BodyAccJerk.Std.X       | tbodyaccjerkstdx            |
+| Time.BodyAccJerk.Std.Y       | tbodyaccjerkstdy            |
+| Time.BodyAccJerk.Std.Z       | tbodyaccjerkstdz            |
+| Time.BodyGyro.Mean.X         | tbodygyromeanx              |
+| Time.BodyGyro.Mean.Y         | tbodygyromeany              |
+| Time.BodyGyro.Mean.Z         | tbodygyromeanz              |
+| Time.BodyGyro.Std.X          | tbodygyrostdx               |
+| Time.BodyGyro.Std.Y          | tbodygyrostdy               |
+| Time.BodyGyro.Std.Z          | tbodygyrostdz               |
+| Time.BodyGyroJerk.Mean.X     | tbodygyrojerkmeanx          |
+| Time.BodyGyroJerk.Mean.Y     | tbodygyrojerkmeany          |
+| Time.BodyGyroJerk.Mean.Z     | tbodygyrojerkmeanz          |
+| Time.BodyGyroJerk.Std.X      | tbodygyrojerkstdx           |
+| Time.BodyGyroJerk.Std.Y      | tbodygyrojerkstdy           |
+| Time.BodyGyroJerk.Std.Z      | tbodygyrojerkstdz           |
+| Time.BodyAccMag.Mean         | tbodyaccmagmean             |
+| Time.BodyAccMag.Std          | tbodyaccmagstd              |
+| Time.GravityAccMag.Mean      | tgravityaccmagmean          |
+| Time.GravityAccMag.Std       | tgravityaccmagstd           |
+| Time.BodyAccJerkMag.Mean     | tbodyaccjerkmagmean         |
+| Time.BodyAccJerkMag.Std      | tbodyaccjerkmagstd          |
+| Time.BodyGyroMag.Mean        | tbodygyromagmean            |
+| Time.BodyGyroMag.Std         | tbodygyromagstd             |
+| Time.BodyGyroJerkMag.Mean    | tbodygyrojerkmagmean        |
+| Time.BodyGyroJerkMag.Std     | tbodygyrojerkmagstd         |
+| FFT.BodyAcc.Mean.X           | fbodyaccmeanx               |
+| FFT.BodyAcc.Mean.Y           | fbodyaccmeany               |
+| FFT.BodyAcc.Mean.Z           | fbodyaccmeanz               |
+| FFT.BodyAcc.Std.X            | fbodyaccstdx                |
+| FFT.BodyAcc.Std.Y            | fbodyaccstdy                |
+| FFT.BodyAcc.Std.Z            | fbodyaccstdz                |
+| FFT.BodyAccJerk.Mean.X       | fbodyaccjerkmeanx           |
+| FFT.BodyAccJerk.Mean.Y       | fbodyaccjerkmeany           |
+| FFT.BodyAccJerk.Mean.Z       | fbodyaccjerkmeanz           |
+| FFT.BodyAccJerk.Std.X        | fbodyaccjerkstdx            |
+| FFT.BodyAccJerk.Std.Y        | fbodyaccjerkstdy            |
+| FFT.BodyAccJerk.Std.Z        | fbodyaccjerkstdz            |
+| FFT.BodyGyro.Mean.X          | fbodygyromeanx              |
+| FFT.BodyGyro.Mean.Y          | fbodygyromeany              |
+| FFT.BodyGyro.Mean.Z          | fbodygyromeanz              |
+| FFT.BodyGyro.Std.X           | fbodygyrostdx               |
+| FFT.BodyGyro.Std.Y           | fbodygyrostdy               |
+| FFT.BodyGyro.Std.Z           | fbodygyrostdz               |
+| FFT.BodyAccMag.Mean          | fbodyaccmagmean             |
+| FFT.BodyAccMag.Std           | fbodyaccmagstd              |
+| FFT.BodyBodyAccJerkMag.Mean  | fbodybodyaccjerkmagmean     |
+| FFT.BodyBodyAccJerkMag.Std   | fbodybodyaccjerkmagstd      |
+| FFT.BodyBodyGyroMag.Mean     | fbodybodygyromagmean        |
+| FFT.BodyBodyGyroMag.Std      | fbodybodygyromagstd         |
+| FFT.BodyBodyGyroJerkMag.Mean | fbodybodygyrojerkmagmean    |
+| FFT.BodyBodyGyroJerkMag.Std  | fbodybodygyrojerkmagstd     |
